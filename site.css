@@ -1,0 +1,35 @@
+/* Tim Alvarado, 8/25/2022. Module 4.2 Assignment GitHub Pages */
+
+body {
+    font-family: 'Oswald', 'Veranda', Arial, sans-serif;
+    }
+
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #3c275a;
+    color: #fff;
+    border: 1px solid #D6A800;
+    padding: 10px;  
+}
+
+a:link {
+    color: #453674;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+a:visited {
+    color: #3c275a;
+}
+
+
