@@ -1,0 +1,55 @@
+/* Tim Alvarado, 8/26/2022. Module 4.3 Assignment Webpage Excercise, Part 3 */
+
+#page-title {
+    text-align: center;
+    font-family: 'Oswald', 'Veranda', Arial, sans-serif;
+}
+
+#movies {
+    font-family: 'Oswald', 'Veranda', Arial, sans-serif;
+    width: 45%;
+    float: left;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#five-things {
+    font-family: 'Oswald', 'Veranda', Arial, sans-serif;
+    width: 45%;
+    float: right;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#upper-roman {
+    list-style: upper-roman;
+}
+
+#bottom-links {
+    margin-bottom: 20px;
+    margin-top: 60%;
+    width: 100%;
+   
+}
+
+a:link {
+    font-family: 'Oswald', 'Veranda', Arial, sans-serif;
+    text-decoration: none;
+    float: right;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
