@@ -1,0 +1,202 @@
+<!-- Tim Alvarado 10/5/2022 Assignment 12.3: HTML5 Landing Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" href="MyBio-Assignment.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <Header>
+
+    <h1>Tim Alvarado - MyBio Assignment</h1>
+    
+    </Header>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Experience</a>
+    </nav>
+
+    <div class="container">
+
+        <!--Hobby section Start-->
+        <div class="hobbies">
+           
+            <h1>Hobbies</h1>
+
+            <div class="grid-3-col">
+                
+                <div class="card">
+                    
+                    <div class="card-title">
+                        <h3>Golf</h3>
+                    </div>
+
+                    <figure>
+                        <img src="images/golf.jpg" alt="picture">
+                    </figure>
+                    
+                    <div class="card-content">
+                        Golf is something that is relaxing and frustrating at the same time.  It requires patience to learn and get better at.  I had grown up playing soccer all of my life
+                        but in the last few years I have had some re-occurring injuries that have kept me from playing so I have began playing golf much more.  My wife and friends all play so it is 
+                        something that we can enjoy together and I one day hope to teach my children to enjoy the sport, I know they are both eager to come out and play with their mom and dad.  
+                    </div>
+               
+                </div>
+
+                <div class="card">
+
+                    <div class="card-title">
+                        <h3>Traveling</h3>
+                    </div>
+
+                    <figure>
+                        <img src="images/colorado.jpg" alt="picture">
+                    </figure>
+                        
+                    <div class="card-content">
+                        This one is a newer hobby.  As a family, we have not been able to travel much due to the ages of the children but with them getting older it is something that we have been able to do more, and 
+                        hopefully can continue to do.  It will never be easy with two children and also two adults that can all have strong personalities, but when we get to create those memories it is all worth whatever
+                        frustrations we have endured.  
+                    </div>
+                   
+                </div>
+
+                <div class="card">
+                    
+                    <div class="card-title">
+                        <h3>Family</h3>
+                    </div>
+
+                    <figure>
+                        <img src="images/breakfast.JPG" alt="picture">
+                    </figure>
+                        
+                    <div class="card-content">
+                        It would have been easy to put some other items in this place.  I enjoy playing video games, or used to before this program started, board games, puzzles, trying new whiskeys and cooking.  But 
+                        with the growth of our family it is hard not to have these times take up more space within our lives every passing year.  Our children have started playing sports and doing activities none stop it feels like, 
+                        and at times it seems like my wife and I do not have time for each other, let alone ourselves.  She is a great mother and has sacrificed so much in this last 6 months with taking the kids to many of their
+                        activities on her own to allow me to complete homework and studying.  It is hard not to say that family is a hobby these days because these are such fun times to watch our kids grow and see them 
+                        develop into their own personalities.  There are definitely times that I have missed, but the ones I am able to see and share are priceless.  
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!--Hobby section End-->
+
+        <br>
+
+        <!--Experience section Start-->
+        <div class="experience">
+           
+            <h1>Experience</h1>
+
+            <div class="grid-3-col">
+                
+                <div class="card">
+                    
+                    <div class="card-title">
+                        <h3>IT Help Desk</h3>
+                    </div>
+                    
+                    <div class="card-content">
+                        My role in IT held desk had pushed me, in a way, to pursue this college degree in software development.  I want to work more on the building of programs, applications and websites than 
+                        being in the role to troubleshoot hardware and software issues with end users.  I continue to work for certifications to broaden my skillsets with my current role but my hopes are to
+                        land a position with a company before or soon after graduation to start using the knowledge I have learned in this program. 
+                    </div>
+               
+                </div>
+
+                <div class="card">
+                    
+                    <div class="card-title">
+                        <h3>Insurance Sales and Enrollments</h3>
+                    </div>
+                        
+                    <div class="card-content">
+                        I have been involved in the Insurance industry for almost 10 years.  I have been in a number of roles including sales, data entry, EDI, consulting/implementation, and now IT work. 
+                    </div>
+                   
+                </div>
+
+                <div class="card">
+                    
+                    <div class="card-title">
+                        <h3>Human Services</h3>
+                    </div>
+                        
+                    <div class="card-content">
+                        My first college degree was in Psychology, so after college I worked with at risk youth in a group home setting and then with foster care children and parents. 
+                        After being in this field for a few years I went to work for a company that assisted adults with developmental disabilites, running three group homes.  This was a job that 
+                        I became burnt out from and needed a change for my personal well-being, so I made the move into insurance.    
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!--Experience section End-->
+
+        <br>
+
+        <!--Contact form start-->
+        <div class="contact-form">
+
+            <div class="card full-width">
+
+                <div class="card-title">
+                    Contact Form
+                </div>
+
+                <div class="card-content">
+
+                    <div class="form">
+                        <div class="form-fname">
+                            <label for="txtFirstName">First Name:</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName">
+                        </div>
+
+                        <div class="form-lname">
+                            <label for="txtLastName">Last Name:</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName">
+                        </div>
+
+                        <div class="form-email">
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail">
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--Contact form end-->
+    </div>
+
+    <footer>
+        <p> Copyright - Tim Alvarado 2022</p>
+        <a href = "#top">Back to Top</a>
+    </footer>
+
+</body>
+</html>

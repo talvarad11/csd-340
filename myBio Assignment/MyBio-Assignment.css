@@ -1,0 +1,167 @@
+/* Tim Alvarado, 10/5/2022 Assignment 12.3: HTML5 Landing Page */
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: 'Courier Prime', 'Verdana', sans-serif;
+
+}
+
+.container {
+    background-color: #ff9427;
+}
+
+header {
+    background-color: #ff9427;
+    color: #560dfc;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #FC200D;
+    border-bottom: 15px solid black;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: aqua;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: chartreuse;
+    color: blue;
+}
+
+h1{
+    font-weight:bold ;
+    text-align: center;
+    text-decoration: underline;
+    color: #560dfc;
+}
+
+.hobbies {
+    min-height: 250px;
+}
+
+.experience {
+    min-height: 250px;
+}
+
+.contact-form{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.grid-3-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+figure {
+    height:auto;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: .3s;
+    width: 95%;
+}
+
+.card-title{
+    text-align: center;
+    color: #0c62f2;
+    text-decoration: underline;
+}
+
+.card-content{
+    padding: 2px 16px;
+    line-height: 2em;
+    color: #560dfc;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.form-fname, .form-lname, .form-email, .form-submit {
+    padding: 20px;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: black;
+}
+
+.btn-primary {
+    background-color: #560dfc;
+    color: #f58327;
+}
+
+.btn-primary:hover {
+    background-color: gray;
+    color: #f58327;
+}
+
+footer {
+    border-top: 15px solid #FC200D;
+    background-color: #ff9427;
+    padding: 35px;
+}
+
+footer p{
+    float: left;
+    color: #560dfc;
+}
+
+footer a {
+    float: right;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
